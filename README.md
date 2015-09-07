@@ -15,22 +15,22 @@ Please make sure to add the liberaries included in the /libs directory when you 
 
 Application will fail to compile, if any of these libraries are missing.
 
-*aws-java-sdk-1.9.34.jar
-*commons-logging-1.2.jar
-*com.fasterxml.jackson.annotations.jar
-*com.fasterxml.jackson.core.jar
-*com.fasterxml.jackson.databind.jar
-*commons-codec-1.9.jar
-*commons-logging-1.2.jar
-*fluent-hc-4.4.1.jar
-*httpclient-4.4.1.jar
-*httpclient-cache-4.4.1.jar
-*httpclient-win-4.4.1.jar
-*httpcore-4.4.1.jar
-*httpmime-4.4.1.jar
-*jna-4.1.0.jar
-*jna-platform-4.1.0.jar
-*joda-time-2.8.jar
+* aws-java-sdk-1.9.34.jar
+* commons-logging-1.2.jar
+* com.fasterxml.jackson.annotations.jar
+* com.fasterxml.jackson.core.jar
+* com.fasterxml.jackson.databind.jar
+* commons-codec-1.9.jar
+* commons-logging-1.2.jar
+* fluent-hc-4.4.1.jar
+* httpclient-4.4.1.jar
+* httpclient-cache-4.4.1.jar
+* httpclient-win-4.4.1.jar
+* httpcore-4.4.1.jar
+* httpmime-4.4.1.jar
+* jna-4.1.0.jar
+* jna-platform-4.1.0.jar
+* joda-time-2.8.jar
 
 These are the versions I've used when writing this application, but there may be later versions available. It's recommended to use the latest libraries.
 
