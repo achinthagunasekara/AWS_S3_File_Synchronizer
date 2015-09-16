@@ -32,7 +32,7 @@ Application will fail to compile, if any of these libraries are missing.
 * jna-platform-4.1.0.jar
 * joda-time-2.8.jar
 
-These are the versions I've used when writing this application, but there may be later versions available. It's recommended to use the latest libraries.
+These are the versions I've used when writing this application, but there may be later versions available. It's recommended to use the latest libraries, but changes to the code base may be required depending on the library changes.
 
 How to Use
 ----------
