@@ -186,6 +186,7 @@ public class Syncer {
         client.putObject(request);
     }
     
+    //upload files to S3
     private void download(AmazonS3 client, String bucketName, String key, String fileName) throws IOException {
         
         Path p = Paths.get(appConfig.getDirectory() + fileName);
@@ -200,6 +201,7 @@ public class Syncer {
         IOUtils.copy(objectContent, new FileOutputStream(appConfig.getDirectory() + fileName));
     }
     
+    //Remove files from S3
     private void cleanS3(Map<String, String> localFiles, Map<String, String> serverFiles, AmazonS3 client, String bucketName) {
         
         log.info("Oneway Syncing - Clening up files FROM S3...");
