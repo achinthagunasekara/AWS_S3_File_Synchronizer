@@ -1,7 +1,12 @@
 /*
  * This application is deisnged to Synchronize files between a given
  * directory and AWS S3 Bucket
+ *
+ * @author Archie Gunasekara
+ * @date 2015.05.12
+ * 
  */
+ 
 package s3filesynchronizer;
 
 import java.io.IOException;
@@ -10,12 +15,6 @@ import Config.AppConfig;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-/*
- *
- * @author Archie Gunasekara
- * @date 2015.05.12
- * 
- */
 public class S3FileSynchronizer {
     
     public static Log log;
