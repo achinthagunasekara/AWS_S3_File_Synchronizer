@@ -1,16 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package s3filesynchronizer;
-
-/*
+ * This application is deisnged to Synchronize files between a given
+ * directory and AWS S3 Bucket
  *
  * @author Archie Gunasekara
  * @date 2015.05.12
  * 
  */
+ 
+package s3filesynchronizer;
+
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.Protocol;
 import java.io.File;
