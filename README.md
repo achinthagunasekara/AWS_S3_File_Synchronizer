@@ -60,3 +60,5 @@ You'll also need a file as specified under "s3CredentialsFile" to store your AWS
 accessKey=ACCESS_KEY
 secretKey=SECRET_KEY
 ```
+
+You are able to run this script via the command line or as a scheduled task.
