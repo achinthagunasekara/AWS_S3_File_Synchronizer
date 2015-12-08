@@ -49,11 +49,11 @@ accessKey=ACCESS_KEY
 secretKey=SECRET_KEY
 ```
 
-```properties
-directory=Directory_TO_SYNC
-bucket=S3_BUCKET_NAME
-s3CredentialsFile=FILE_WITH_S3 CREDENTIALS
-previeMode=PREVIEW_MODE_SET_TRUE_AND_NO_CHANGES_WOULD_MAKE_TO_THE_FILE_SYSTEM
-syncMethod=POSSIBLE_VALUES_ARE_FROMS3_TOS3_OR_BIDIRECTIONAL
-deleteFiles=NO_FILES_WILL_BE_DELETED_ONLY_NEW_FILES_WILL_BE_ADDED
-```
+| Configuration Item | Details |
+|-------------------|---------|
+| directory | Directory to Sync with S3 bucket |
+| bucket | Name of the S3 bucket |
+| s3CredentialsFile | Full path and the name of S3 credentials file |
+| previeMode | Valid vaules are TRUE or FALSE. If set to TRUE no files will be synced. Console output will be printed |
+| syncMethod | Valid values are FROMS3, TOS3 or BIDIRECTIONAL. This will tell which way to sync files |
+| deleteFiles | Valid vaules are TRUE or FALSE. If set to TRUE, files will only be added, but not deleted |
