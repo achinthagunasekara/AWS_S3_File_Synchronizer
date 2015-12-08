@@ -31,7 +31,16 @@ These are the versions I've used when writing this application, but there may be
 
 ##How to Use
 
-Set your configuration in /config.properties file
+Set your configuration in /config.properties file. Please have a look below for more detailed explanation of the config file items.
+
+```properties
+directory=/tmp/Test
+bucket=archie_test_bucket
+s3CredentialsFile=/tmp/s3credentials.txt
+previeMode=true
+syncMethod=BIDIRECTIONAL
+deleteFiles=true
+```
 
 ```properties
 directory=Directory_TO_SYNC
