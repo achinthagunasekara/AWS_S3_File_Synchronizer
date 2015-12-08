@@ -11,21 +11,22 @@ Please make sure to add the liberaries included in the /libs directory when you 
 Application will fail to compile, if any of these libraries are missing.
 
 | Library | More Information |
-* aws-java-sdk-1.9.34.jar - https://aws.amazon.com/sdk-for-java/
-* commons-logging-1.2.jar - https://commons.apache.org/proper/commons-logging/download_logging.cgi
-* com.fasterxml.jackson.annotations.jar - http://wiki.fasterxml.com/JacksonHome
-* com.fasterxml.jackson.core.jar - http://wiki.fasterxml.com/JacksonHome
-* com.fasterxml.jackson.databind.jar - http://wiki.fasterxml.com/JacksonHome
-* commons-codec-1.9.jar - https://commons.apache.org/proper/commons-codec/download_codec.cgi
-* fluent-hc-4.4.1.jar - https://hc.apache.org/httpcomponents-client-ga/tutorial/html/fluent.html
-* httpclient-4.4.1.jar - https://hc.apache.org/httpcomponents-client-ga/download.html
-* httpclient-cache-4.4.1.jar - https://hc.apache.org/httpcomponents-client-ga/download.html
-* httpclient-win-4.4.1.jar - https://hc.apache.org/httpcomponents-client-ga/download.html
-* httpcore-4.4.1.jar - https://hc.apache.org/downloads.cgi
-* httpmime-4.4.1.jar - https://hc.apache.org/downloads.cgi
-* jna-4.1.0.jar - https://github.com/java-native-access/jna
-* jna-platform-4.1.0.jar - https://github.com/java-native-access/jna
-* joda-time-2.8.jar - http://www.joda.org/joda-time/
+|---------|------------------|
+| aws-java-sdk-1.9.34.jar | https://aws.amazon.com/sdk-for-java/ |
+| commons-logging-1.2.jar | https://commons.apache.org/proper/commons-logging/download_logging.cgi |
+| com.fasterxml.jackson.annotations.jar | http://wiki.fasterxml.com/JacksonHome |
+| com.fasterxml.jackson.core.jar | http://wiki.fasterxml.com/JacksonHome |
+| com.fasterxml.jackson.databind.jar | http://wiki.fasterxml.com/JacksonHome |
+| commons-codec-1.9.jar | https://commons.apache.org/proper/commons-codec/download_codec.cgi |
+| fluent-hc-4.4.1.jar | https://hc.apache.org/httpcomponents-client-ga/tutorial/html/fluent.html |
+| httpclient-4.4.1.jar | https://hc.apache.org/httpcomponents-client-ga/download.html |
+| httpclient-cache-4.4.1.jar | https://hc.apache.org/httpcomponents-client-ga/download.html |
+| httpclient-win-4.4.1.jar | https://hc.apache.org/httpcomponents-client-ga/download.html |
+| httpcore-4.4.1.jar | https://hc.apache.org/downloads.cgi |
+| httpmime-4.4.1.jar | https://hc.apache.org/downloads.cgi |
+| jna-4.1.0.jar | https://github.com/java-native-access/jna |
+| jna-platform-4.1.0.jar | https://github.com/java-native-access/jna |
+| joda-time-2.8.jar | http://www.joda.org/joda-time/ |
 
 These are the versions I've used when writing this application, but there may be later versions available. It's recommended to use the latest libraries, but changes to the code base may be required depending on the library changes.
 
