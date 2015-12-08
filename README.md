@@ -2,7 +2,7 @@
 
 Application to Sync files between a directory on your machine and AWS S3.
 
-#Compiling the Application
+##Compiling the Application
 
 This application was written using JDK 8 and Netbeans 8.0.2
 
