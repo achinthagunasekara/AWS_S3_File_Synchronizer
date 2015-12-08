@@ -36,10 +36,17 @@ Set your configuration in /config.properties file. Please have a look below for 
 ```properties
 directory=/tmp/Test
 bucket=archie_test_bucket
-s3CredentialsFile=/tmp/s3credentials.txt
+s3CredentialsFile=/tmp/s3credentials.properties
 previeMode=true
 syncMethod=BIDIRECTIONAL
 deleteFiles=true
+```
+
+You'll also need a file as specified under "s3CredentialsFile" to store your AWS access key and the secret key as below.
+
+```properties
+accessKey=ACCESS_KEY
+secretKey=SECRET_KEY
 ```
 
 ```properties
