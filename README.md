@@ -42,12 +42,7 @@ syncMethod=BIDIRECTIONAL
 deleteFiles=true
 ```
 
-You'll also need a file as specified under "s3CredentialsFile" to store your AWS access key and the secret key as below.
-
-```properties
-accessKey=ACCESS_KEY
-secretKey=SECRET_KEY
-```
+###Configuration File Explanied
 
 | Configuration Item | Details |
 |-------------------|---------|
@@ -57,3 +52,10 @@ secretKey=SECRET_KEY
 | previeMode | Valid vaules are TRUE or FALSE. If set to TRUE no files will be synced. Console output will be printed |
 | syncMethod | Valid values are FROMS3, TOS3 or BIDIRECTIONAL. This will tell which way to sync files |
 | deleteFiles | Valid vaules are TRUE or FALSE. If set to TRUE, files will only be added, but not deleted |
+
+You'll also need a file as specified under "s3CredentialsFile" to store your AWS access key and the secret key as below.
+
+```properties
+accessKey=ACCESS_KEY
+secretKey=SECRET_KEY
+```
