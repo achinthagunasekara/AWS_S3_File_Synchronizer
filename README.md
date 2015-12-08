@@ -1,14 +1,9 @@
-AWS S3 File Synchronizer
-========================
+#AWS S3 File Synchronizer
 
-Author: Achintha Gunasekara
+Application to Sync files between a directory on your machine and AWS S3.
 
-web: http://www.achinthagunasekara.com
+#Compiling the Application
 
-Contact: contact@achinthagunasekara.com
-
-Info
-----
 This application was written using JDK 8 and Netbeans 8.0.2
 
 Please make sure to add the liberaries included in the /libs directory when you build the application.
@@ -34,11 +29,11 @@ Application will fail to compile, if any of these libraries are missing.
 
 These are the versions I've used when writing this application, but there may be later versions available. It's recommended to use the latest libraries, but changes to the code base may be required depending on the library changes.
 
-How to Use
-----------
+##How to Use
+
 Set your configuration in /config.properties file
 
-```html
+```properties
 directory=Directory_TO_SYNC
 bucket=S3_BUCKET_NAME
 s3CredentialsFile=FILE_WITH_S3 CREDENTIALS
