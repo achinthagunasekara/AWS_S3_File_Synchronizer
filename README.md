@@ -1,8 +1,8 @@
-#AWS S3 File Synchronizer
+# AWS S3 File Synchronizer
 
 Application to Sync files between a directory on your machine and AWS S3.
 
-##Compiling the Application
+## Compiling the Application
 
 This application was written using JDK 8 and Netbeans 8.0.2
 
@@ -30,7 +30,7 @@ Application will fail to compile, if any of these libraries are missing.
 
 These are the versions I've used when writing this application, but there may be later versions available. It's recommended to use the latest libraries, but changes to the code base may be required depending on the library changes.
 
-##How to Use
+## How to Use
 
 Set your configuration in /config.properties file. Please have a look below for more detailed explanation of the config file items.
 
@@ -43,7 +43,7 @@ syncMethod=BIDIRECTIONAL
 deleteFiles=true
 ```
 
-###Configuration File Explanied
+### Configuration File Explanied
 
 | Configuration Item | Details |
 |-------------------|---------|
